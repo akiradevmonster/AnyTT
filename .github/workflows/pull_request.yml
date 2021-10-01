@@ -1,0 +1,44 @@
+on:
+  pull_request:
+    types: [opened, synchronize]
+
+name: Test
+
+jobs:
+  test:
+    name: CI Test
+    runs-on: ubuntu-latest
+
+    services:
+      mongodb:
+        image: mongo
+        ports:
+          - 27017:27017
+
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Setup node.js
+        uses: actions/setup-node@v1
+        with:
+          node-version: 12.x
+
+      - name: Install Yarn-pkg
+        run: npm install -g yarn
+
+      - name: Software versions
+        run: |
+          echo node: `node --version`
+          echo npm:  v`npm --version`
+          echo yarn: v`yarn --version`
+
+      - name: Install packages
+        run: >
+          yarn install
+          --frozen-lockfile
+          --ignore-optional
+          --no-progress
+          --non-interactive
+
+      - name: Test
+        run: yarn test
