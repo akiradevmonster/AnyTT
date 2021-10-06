@@ -1,0 +1,5 @@
+stop_id,stop_code,stop_name,stop_desc,stop_lat,stop_lon,zone_id,stop_url,location_type,parent_station,stop_timezone,wheelchair_boarding
+1253,,晴海三丁目,,35.655677,139.781999,,https://tobus.jp/blsys/navi?LCD=&VCD=cresultrsi&ECD=aprslt&slst=1253,1,,,
+1253-01,,4番のりば,,35.655677,139.781999,,https://tobus.jp/blsys/navi?LCD=&VCD=cresultrsi&ECD=aprslt&slst=1253,0,1253,,
+1248,,晴海区民館前,,35.656248,139.78361,,https://tobus.jp/blsys/navi?LCD=&VCD=cresultrsi&ECD=aprslt&slst=1248,1,,,
+1248-01,,のりば,,35.656248,139.78361,,https://tobus.jp/blsys/navi?LCD=&VCD=cresultrsi&ECD=aprslt&slst=1248,0,1248,,
