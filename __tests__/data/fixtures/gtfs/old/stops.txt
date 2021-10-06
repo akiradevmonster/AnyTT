@@ -1,0 +1,5 @@
+stop_id,stop_code,stop_name,stop_desc,stop_lat,stop_lon,zone_id,stop_url,location_type,parent_station,stop_timezone,wheelchair_boarding
+1251,,ホテルマリナーズコート東京前,,35.653893,139.779354,,https://tobus.jp/blsys/navi?LCD=&VCD=cresultrsi&ECD=aprslt&slst=1251,1,,,
+1251-01,,のりば,,35.653893,139.779354,,https://tobus.jp/blsys/navi?LCD=&VCD=cresultrsi&ECD=aprslt&slst=1251,0,1251,,
+1253,,晴海三丁目,,35.655677,139.781999,,https://tobus.jp/blsys/navi?LCD=&VCD=cresultrsi&ECD=aprslt&slst=1253,1,,,
+1253-01,,のりば,,35.655677,139.781999,,https://tobus.jp/blsys/navi?LCD=&VCD=cresultrsi&ECD=aprslt&slst=1253,0,1253,,
