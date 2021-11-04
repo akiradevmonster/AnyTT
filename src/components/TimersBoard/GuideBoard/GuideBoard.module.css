@@ -1,0 +1,21 @@
+.time {
+  width: unset;
+  flex-grow: 1;
+}
+
+.back {
+  flex-direction: column-reverse;
+}
+
+.forward {
+  flex-direction: column;
+}
+
+.nomargin {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.adjust-width {
+  min-width: unset;
+}
