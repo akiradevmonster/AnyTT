@@ -1,0 +1,5 @@
+.root {
+  color: var(--palette-grey-50);
+  background-color: var(--palette-primary-main);
+  padding: var(--spacing-unit) 0.5em;
+}
