@@ -1,0 +1,375 @@
+{
+  "id": "rs001",
+  "slug": "dt",
+  "name": "Deux Tours/ドゥトゥール",
+  "stops": [
+    {
+      "distance": 0,
+      "stop": {
+        "id": "s001",
+        "name": "ドゥトゥール前",
+        "agency": {
+          "id": "a001",
+          "name": "シャトルバス"
+        },
+        "routes": [
+          {
+            "id": "rt001",
+            "headsign": null,
+            "dest": "東銀座駅・新橋駅",
+            "description": "",
+            "timetables": [
+              {
+                "id": "t001",
+                "calendar": [1, 2, 3, 4, 5],
+                "data": [
+                  {
+                    "hour": 6,
+                    "minutes": [0, 30 , 45]
+                  },
+                  {
+                    "hour": 7,
+                    "minutes": [0, 10, 20, 35, 50]
+                  }
+                ]
+              },
+              {
+                "id": "t002",
+                "calendar": [6],
+                "data": null
+              },
+              {
+                "id": "t003",
+                "calendar": [0],
+                "data": null
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "distance": 180,
+      "stop": {
+        "id": "s002",
+        "name": "ホテルマリナーズコート東京前",
+        "agency": {
+          "id": "a002",
+          "name": "都営バス"
+        },
+        "routes": [
+          {
+            "id": "rt002",
+            "headsign": "都05-1",
+            "dest": "東京駅丸の内南口",
+            "description": "",
+            "timetables": [
+              {
+                "id": "t004",
+                "calendar": [1, 2, 3, 4, 5],
+                "data": [
+                  {
+                    "hour": 6,
+                    "minutes": [32, 40, 52, 58]
+                  },
+                  {
+                    "hour": 7,
+                    "minutes": [8, 13, 19, 24, 29, 34, 39, 44, 49, 54, 58]
+                  }
+                ]
+              },
+              {
+                "id": "t005",
+                "calendar": [6],
+                "data": [
+                  {
+                    "hour": 6,
+                    "minutes": [32, 42 , 55]
+                  },
+                  {
+                    "hour": 7,
+                    "minutes": [17, 26, 34, 42, 50]
+                  }
+                ]
+              },
+              {
+                "id": "t006",
+                "calendar": [0],
+                "data": [
+                  {
+                    "hour": 6,
+                    "minutes": [32, 47]
+                  },
+                  {
+                    "hour": 7,
+                    "minutes": [2, 30, 40, 50]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "rt003",
+            "headsign": "都03",
+            "dest": "四谷駅",
+            "description": "",
+            "timetables": [
+              {
+                "id": "t007",
+                "calendar": [1, 2, 3, 4, 5],
+                "data": [
+                  {
+                    "hour": 6,
+                    "minutes": [37]
+                  },
+                  {
+                    "hour": 7,
+                    "minutes": [7, 27, 52]
+                  }
+                ]
+              },
+              {
+                "id": "t008",
+                "calendar": [6],
+                "data": [
+                  {
+                    "hour": 6,
+                    "minutes": [37]
+                  },
+                  {
+                    "hour": 7,
+                    "minutes": [27]
+                  }
+                ]
+              },
+              {
+                "id": "t009",
+                "calendar": [0],
+                "data": [
+                  {
+                    "hour": 6,
+                    "minutes": [36]
+                  },
+                  {
+                    "hour": 7,
+                    "minutes": [1]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "distance": 280,
+      "stop": {
+        "id": "s003",
+        "name": "晴海三丁目",
+        "agency": {
+          "id": "a002",
+          "name": "都営バス"
+        },
+        "routes": [
+          {
+            "id": "rt004",
+            "headsign": "都05-2",
+            "dest": "東京駅丸の内南口",
+            "description": "",
+            "timetables": [
+              {
+                "id": "t010",
+                "calendar": [1, 2, 3, 4, 5],
+                "data": [
+                  {
+                    "hour": 6,
+                    "minutes": [47, 59]
+                  },
+                  {
+                    "hour": 7,
+                    "minutes": [8, 25, 35, 43, 54]
+                  }
+                ]
+              },
+              {
+                "id": "t011",
+                "calendar": [6],
+                "data": [
+                  {
+                    "hour": 6,
+                    "minutes": [59]
+                  },
+                  {
+                    "hour": 7,
+                    "minutes": [21, 39, 57]
+                  }
+                ]
+              },
+              {
+                "id": "t012",
+                "calendar": [0],
+                "data": [
+                  {
+                    "hour": 6,
+                    "minutes": [49]
+                  },
+                  {
+                    "hour": 7,
+                    "minutes": [10, 29, 52]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "rt005",
+            "headsign": "市01",
+            "dest": "新橋駅",
+            "description": "",
+            "timetables": [
+              {
+                "id": "t013",
+                "calendar": [1, 2, 3, 4, 5],
+                "data": [
+                  {
+                    "hour": 6,
+                    "minutes": [32, 53]
+                  },
+                  {
+                    "hour": 7,
+                    "minutes": [9, 20, 30, 40, 50]
+                  }
+                ]
+              },
+              {
+                "id": "t014",
+                "calendar": [6],
+                "data": [
+                  {
+                    "hour": 6,
+                    "minutes": [32, 53]
+                  },
+                  {
+                    "hour": 7,
+                    "minutes": [9, 20, 30, 40, 50]
+                  }
+                ]
+              },
+              {
+                "id": "t015",
+                "calendar": [0],
+                "data": null
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "distance": 300,
+      "stop": {
+        "id": "s004",
+        "name": "晴海三丁目",
+        "agency": {
+          "id": "a003",
+          "name": "江戸バス"
+        },
+        "routes": [
+          {
+            "id": "rt006",
+            "headsign": "南循環",
+            "dest": "中央区役所",
+            "description": "",
+            "timetables": [
+              {
+                "id": "t016",
+                "calendar": [1, 2, 3, 4, 5],
+                "data": [
+                  {
+                    "hour": 7,
+                    "minutes": [31, 51]
+                  }
+                ]
+              },
+              {
+                "id": "t017",
+                "calendar": [6],
+                "data": [
+                  {
+                    "hour": 7,
+                    "minutes": [42]
+                  }
+                ]
+              },
+              {
+                "id": "t018",
+                "calendar": [0],
+                "data": [
+                  {
+                    "hour": 7,
+                    "minutes": [42]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "distance": 310,
+      "stop": {
+        "id": "s005",
+        "name": "晴海三丁目",
+        "agency": {
+          "id": "a004",
+          "name": "晴海ライナー"
+        },
+        "routes": [
+          {
+            "id": "rt007",
+            "headsign": null,
+            "dest": "有楽町駅",
+            "description": "",
+            "timetables": [
+              {
+                "id": "t019",
+                "calendar": [1, 2, 3, 4, 5],
+                "data": [
+                  {
+                    "hour": 6,
+                    "minutes": [57]
+                  },
+                  {
+                    "hour": 7,
+                    "minutes": [10, 22, 33, 44, 56]
+                  }
+                ]
+              },
+              {
+                "id": "t020",
+                "calendar": [6],
+                "data": [
+                  {
+                    "hour": 7,
+                    "minutes": [27]
+                  }
+                ]
+              },
+              {
+                "id": "t021",
+                "calendar": [0],
+                "data": [
+                  {
+                    "hour": 7,
+                    "minutes": [27]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}
