@@ -1,0 +1,129 @@
+{
+  "id": "rs001",
+  "slug": "dt",
+  "name": "Deux Tours/ドゥトゥール",
+  "stops": [
+    {
+      "distance": 0,
+      "stop": {
+        "id": "s001",
+        "name": "ドゥトゥール前",
+        "agency": {
+          "id": "a001",
+          "name": "ドゥトゥールシャトルバス"
+        },
+        "contacts": [
+          {
+            "id": "c001",
+            "sequence": 1,
+            "route": {
+              "id": "rt001",
+              "origin": "ドゥトゥール前",
+              "via": "東銀座駅前",
+              "destination": "新橋駅前",
+              "headsign": null
+            },
+            "timetable": {
+              "id": "tt001",
+              "calendar": [1, 2, 3, 4, 5],
+              "data": [7200, 9000, 9900, 10800, 11400, 12000, 12900, 13800]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "distance": 180,
+      "stop": {
+        "id": "s002",
+        "name": "ホテルマリナーズコート前のりば1",
+        "agency": {
+          "id": "a011",
+          "name": "都バス"
+        },
+        "contacts": [
+          {
+            "id": "c011",
+            "sequence": 3,
+            "route": {
+              "id": "rt011",
+              "origin": "晴海埠頭",
+              "via": null,
+              "destination": "東京駅丸の内南口",
+              "headsign": "都05-1"
+            },
+            "timetable": {
+              "id": "tt011",
+              "calendar": [1, 2, 3, 4, 5],
+              "data": [
+                9120, 9600, 10320, 10680, 11280, 11580, 11940,
+                12240, 12540, 12840, 13140, 13440, 13740, 14040, 14280
+              ]
+            }
+          },
+          {
+            "id": "c012",
+            "sequence": 3,
+            "route": {
+              "id": "rt012",
+              "origin": "晴海埠頭",
+              "via": null,
+              "destination": "四谷駅",
+              "headsign": "都03"
+            },
+            "timetable": {
+              "id": "tt012",
+              "calendar": [1, 2, 3, 4, 5],
+              "data": [9420, 11220, 12420, 13920]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "distance": 280,
+      "stop": {
+        "id": "s003",
+        "name": "晴海三丁目のりば1",
+        "agency": {
+          "id": "a011",
+          "name": "都バス"
+        },
+        "contacts": [
+          {
+            "id": "c021",
+            "sequence": 13,
+            "route": {
+              "id": "rt021",
+              "origin": "東京ビッグサイト",
+              "via": null,
+              "destination": "東京駅丸の内南口",
+              "headsign": "都05-2"
+            },
+            "timetable": {
+              "id": "tt021",
+              "calendar": [1, 2, 3, 4, 5],
+              "data": [10020, 10740, 11280, 12300, 12900, 13380, 14040]
+            }
+          },
+          {
+            "id": "c022",
+            "sequence": 4,
+            "route": {
+              "id": "rt022",
+              "origin": "豊洲市場",
+              "via": null,
+              "destination": "新橋駅前",
+              "headsign": "市01"
+            },
+            "timetable": {
+              "id": "tt022",
+              "calendar": [1, 2, 3, 4, 5],
+              "data": [9120, 10380, 11340, 12000, 12600, 13200, 13800]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}
