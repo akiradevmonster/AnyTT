@@ -1,0 +1,11 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "jsx": "react",
+    "isolatedModules": false
+  },
+  "files": [
+    "src/lib/types/environment.d.ts",
+    "src/lib/types/mongodb.bulkOps.d.ts"
+  ]
+}
